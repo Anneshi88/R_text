@@ -1,0 +1,16 @@
+ls()
+####打开帮助文档首页####
+help.start()
+#####安装一个“vcd"的包######
+install.packages("vcd")
+library("vcd")
+####列出此包中可用的函数和数据集###
+help(package="vcd")
+######载入这个包并阅读数据集Arthritis的描述####
+help(Arthritis)
+######显示数据集Arthritis的内容（直接输入一个对象的名称将列出它的内容）####
+Arthritis
+#####运行数据集Arthritis自带的示例######
+example(Arthritis)
+#####退出###
+q()
